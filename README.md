@@ -35,6 +35,19 @@ pz4-todo/
   pkg/middleware/
     logger.go
     cors.go
+  docs/
+    server-run.png
+    curl-check.png
   requests.md
   README.md
 ```
+
+## Скриншоты проверки
+
+### Запуск сервера и логи
+
+![Запуск go run . и логи CRUD](docs/server-run.png)
+
+### CRUD через curl
+
+![Ответы create/list/get/update/delete](docs/curl-check.png)
